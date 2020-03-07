@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Home 渡辺晴輝　株式会社メンバーズ20卒内定者課題 web制作</title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.min.css">
+		<script type="text/javascript">
+			function slideSwitch() {
+				if($('#slideshow img:first').hasClass('img_passive')){
+					$('#slideshow img:first').addClass('img_acitve');
+					$('#slideshow img:first').removeClass('img_passive');
+					$('#slideshow img:last').addClass('img_passive');
+					$('#slideshow img:last').removeClass('img_active');	
+				}else{
+					$('#slideshow img:last').addClass('img_acitve');
+					$('#slideshow img:last').removeClass('img_passive');
+					$('#slideshow img:first').addClass('img_passive');
+					$('#slideshow img:first').removeClass('img_active');
+				}
+			}
+			$(function() {
+			   setInterval( "slideSwitch()", 5000 );
+			});
+		</script>
+	</head>
+	<body>
+		<div class="all-container">
+			<div class="top_text-container" id="top">
+				
+				
+				<div class="sliding_pictures" id="slideshow">
+					<img class="img_active" src="figures/Watanabe/pictures1.png" alt="" width="100%" height="auto">
+					<img class="img_passive" src="figures/Watanabe/pictures2.png" alt="" width="100%" height="auto">
+				</div>
+				<a href="index-about_WatanabeHaruki.html">
+					<h1>わたなべはるきの世界</h1>
+				</a>
+			</div>
+			<div class="colored_header">
+				<div class="menu_component">
+					<div class="menu1">
+						<a href="#profile">プロフィール</a>
+					</div>
+					<div class="menu2">
+						<a href="#what_i_did">やってきたこと</a>
+					</div>
+					<div class="menu3">
+						<a href="#Im_into">熱中していること</a>
+					</div>
+					<div class="menu4">
+						<a href="#resolution">抱負・同期へ一言</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="profile" id="profile">
+				<h3><i class="far fa-check-square"></i> プロフィール</h3>
+				<div class="profile-text">
+					<p>名前</p>
+					<h2>渡辺晴輝</h2>
+					<p>誕生日</p>
+					<h2>2000年 3月 24日</h2>
+					<p>出身地</p>
+					<h2>青森県八戸市</h2>
+					<p>出身校</p>
+					<h2>八戸工業高等専門学校<br>電気情報工学コース</h2>
+					<p>好きな食べ物</p>
+					<h2>えび、かに、果物、ちくわの天ぷら</h2>
+				</div>
+				<div class="map">
+					<img src="figures/nippon_koko.png" alt="">
+				</div>
+			</div>
+			<div class="what_i_did" id="what_i_did">
+				<h3><i class="far fa-check-square"></i> やってきたこと</h3>
+				<div class="UML what_i_did-content">
+					<a href="discription_of_uml.html">
+						<h2>▪UML</h2>
+						<img src="figures/uml/クラス図0.png" alt="UMLの図" width="440px" height="250px">
+					</a>
+				</div>
+				<div class="game_product what_i_did-content">
+					<a href="discription_of_game_production.html">
+						<h2>▪ゲーム作り</h2>
+						<img src="figures/baseball/screenshot.png" alt="野球ゲームの図" width="440px" height="250px">
+					</a>
+				</div>
+				<div class="machine_learning what_i_did-content">
+					<a href="discription_of_machine_learning.html">
+						<h2>▪機械学習</h2>
+						<img src="figures/ML/構成.png" alt="機械学習の図" width="440px" height="250px">
+					</a>
+					
+				</div>
+				<div class="MS_tools what_i_did-content">
+					<h2>▪レポート, 卒論, スライド作成, etc...</h2>
+					<div class="MStools_img">
+						<div class="pawapo">
+							<img src="figures/microsoft_icon/powerpoint.png" alt="パワポの図">
+						</div>
+						<div class="wa-do">
+							<img src="figures/microsoft_icon/word.png" alt="ワードの図">
+						</div>
+						<div class="ekuseru">
+							<img src="figures/microsoft_icon/excel.png" alt="エクセルの図">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Im_into" id="Im_into">
+				<h3><i class="far fa-check-square"></i> 熱中していること</h3>
+				<img src="figures/maikura.png" alt="マイクラの図">
+				<p>「minecraft」にmodを入れて、電車を走らせて遊んでいます。</p>
+			</div>
+			<div class="resolution" id="resolution">
+				<h3><i class="far fa-check-square"></i> 抱負</h3>
+				<p>努力を怠ることなく、でも継続可能なペースで自己研鑽を続けたいと思います。<br><br>
+					とにかくスキルをもっとつけなければと燃えています。頑張ります！<br><br>
+					私は人に尽くすことが好きなので、多くの人のために自分のアイデアや技術を活かせる日々を楽しみにしています。
+				</p>
+			</div>
+			<div class="to_coworkers">
+				<h3><i class="far fa-check-square"></i> 同期へ一言</h3>
+				<p>人見知りに思われがちですが、割と話すことは好きですよ。<br>
+					たくさんお話して、協力して、高めあえるとうれしいです。
+				</p>
+			</div>
+			
+			<footer>
+				<div class="footer_content">
+					<a href="#top">
+						<i class="fas fa-angle-double-up">トップへ</i>
+					</a>
+				</div>
+				<br>
+				<div class="footer_content">
+					<a href="https://www.facebook.com/profile.php?id=100028340766194">
+						<i class="fab fa-facebook"> ふぉろみ！</i>
+					</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+$(function(){
+	$('a[href^=#]').click(function(){
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+</script>
